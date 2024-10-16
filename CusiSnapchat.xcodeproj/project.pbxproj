@@ -9,21 +9,28 @@
 /* Begin PBXBuildFile section */
 		AF9A00F72CC0513C001AFDFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A00F62CC0513C001AFDFA /* AppDelegate.swift */; };
 		AF9A00F92CC0513C001AFDFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A00F82CC0513C001AFDFA /* SceneDelegate.swift */; };
-		AF9A00FB2CC0513D001AFDFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A00FA2CC0513C001AFDFA /* ViewController.swift */; };
+		AF9A00FB2CC0513D001AFDFA /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A00FA2CC0513C001AFDFA /* iniciarSesionViewController.swift */; };
 		AF9A00FE2CC0513D001AFDFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9A00FC2CC0513D001AFDFA /* Main.storyboard */; };
 		AF9A01002CC05144001AFDFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9A00FF2CC05144001AFDFA /* Assets.xcassets */; };
 		AF9A01032CC05144001AFDFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9A01012CC05144001AFDFA /* LaunchScreen.storyboard */; };
+		AF9A010B2CC058E3001AFDFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF9A010A2CC058E3001AFDFA /* GoogleService-Info.plist */; };
+		AF9A010E2CC06058001AFDFA /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AF9A010D2CC06058001AFDFA /* FirebaseAnalytics */; };
+		AF9A01102CC06058001AFDFA /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = AF9A010F2CC06058001AFDFA /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		AF9A01122CC06058001AFDFA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AF9A01112CC06058001AFDFA /* FirebaseAuth */; };
+		AF9A01142CC06058001AFDFA /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = AF9A01132CC06058001AFDFA /* FirebaseDatabase */; };
+		AF9A01162CC06058001AFDFA /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = AF9A01152CC06058001AFDFA /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF9A00F32CC0513C001AFDFA /* CusiSnapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CusiSnapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9A00F62CC0513C001AFDFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF9A00F82CC0513C001AFDFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF9A00FA2CC0513C001AFDFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF9A00FA2CC0513C001AFDFA /* iniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iniciarSesionViewController.swift; sourceTree = "<group>"; };
 		AF9A00FD2CC0513D001AFDFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF9A00FF2CC05144001AFDFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF9A01022CC05144001AFDFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF9A01042CC05144001AFDFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9A010A2CC058E3001AFDFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9A010E2CC06058001AFDFA /* FirebaseAnalytics in Frameworks */,
+				AF9A01122CC06058001AFDFA /* FirebaseAuth in Frameworks */,
+				AF9A01142CC06058001AFDFA /* FirebaseDatabase in Frameworks */,
+				AF9A01162CC06058001AFDFA /* FirebaseStorage in Frameworks */,
+				AF9A01102CC06058001AFDFA /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,11 +70,12 @@
 			children = (
 				AF9A00F62CC0513C001AFDFA /* AppDelegate.swift */,
 				AF9A00F82CC0513C001AFDFA /* SceneDelegate.swift */,
-				AF9A00FA2CC0513C001AFDFA /* ViewController.swift */,
+				AF9A00FA2CC0513C001AFDFA /* iniciarSesionViewController.swift */,
 				AF9A00FC2CC0513D001AFDFA /* Main.storyboard */,
 				AF9A00FF2CC05144001AFDFA /* Assets.xcassets */,
 				AF9A01012CC05144001AFDFA /* LaunchScreen.storyboard */,
 				AF9A01042CC05144001AFDFA /* Info.plist */,
+				AF9A010A2CC058E3001AFDFA /* GoogleService-Info.plist */,
 			);
 			path = CusiSnapchat;
 			sourceTree = "<group>";
@@ -83,6 +96,13 @@
 			dependencies = (
 			);
 			name = CusiSnapchat;
+			packageProductDependencies = (
+				AF9A010D2CC06058001AFDFA /* FirebaseAnalytics */,
+				AF9A010F2CC06058001AFDFA /* FirebaseAnalyticsWithoutAdIdSupport */,
+				AF9A01112CC06058001AFDFA /* FirebaseAuth */,
+				AF9A01132CC06058001AFDFA /* FirebaseDatabase */,
+				AF9A01152CC06058001AFDFA /* FirebaseStorage */,
+			);
 			productName = CusiSnapchat;
 			productReference = AF9A00F32CC0513C001AFDFA /* CusiSnapchat.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,9 @@
 				Base,
 			);
 			mainGroup = AF9A00EA2CC0513C001AFDFA;
+			packageReferences = (
+				AF9A010C2CC06058001AFDFA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = AF9A00F42CC0513C001AFDFA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF9A01032CC05144001AFDFA /* LaunchScreen.storyboard in Resources */,
+				AF9A010B2CC058E3001AFDFA /* GoogleService-Info.plist in Resources */,
 				AF9A01002CC05144001AFDFA /* Assets.xcassets in Resources */,
 				AF9A00FE2CC0513D001AFDFA /* Main.storyboard in Resources */,
 			);
@@ -138,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF9A00FB2CC0513D001AFDFA /* ViewController.swift in Sources */,
+				AF9A00FB2CC0513D001AFDFA /* iniciarSesionViewController.swift in Sources */,
 				AF9A00F72CC0513C001AFDFA /* AppDelegate.swift in Sources */,
 				AF9A00F92CC0513C001AFDFA /* SceneDelegate.swift in Sources */,
 			);
@@ -356,6 +380,46 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF9A010C2CC06058001AFDFA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 10.0.0;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF9A010D2CC06058001AFDFA /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF9A010C2CC06058001AFDFA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		AF9A010F2CC06058001AFDFA /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF9A010C2CC06058001AFDFA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		AF9A01112CC06058001AFDFA /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF9A010C2CC06058001AFDFA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AF9A01132CC06058001AFDFA /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF9A010C2CC06058001AFDFA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		AF9A01152CC06058001AFDFA /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF9A010C2CC06058001AFDFA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AF9A00EB2CC0513C001AFDFA /* Project object */;
 }
